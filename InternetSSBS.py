@@ -9,7 +9,7 @@ import time
 browser=webdriver.Chrome('C:\\driver\\chromedriver.exe')
 i=0
 print(i)
-while (i<=11):
+while (i<=20):
     time.sleep(1)
     browser.get('http://msftconnecttest.com/redirect')
     i+=1
